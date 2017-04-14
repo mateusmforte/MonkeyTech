@@ -113,7 +113,6 @@ h4{
 	margin-left: 180px;
 }
 
-
 /*  segunda barra
 #barra-dois{
 	background: black;
@@ -140,7 +139,7 @@ h4{
 
 /*BLOCOs */
 #quem-somos{
-	background: white;
+	background: red;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	position: relative;
