@@ -126,7 +126,16 @@ h4{
     margin: 30px 30px 0px 0px;
 	height: 100%;
 	width: 60%;
-
+}
+.titulo-carrosel{
+	text-align: center;
+	color:#800000;
+	font-size: 30px;
+	position: relative;
+}
+.texto-carrosel{
+	text-align: center;
+	color: #800000;
 }
 
 /*BLOCOs */
@@ -134,18 +143,21 @@ h4{
 	background: white;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	position: relative;
 }
 
 #servicos{
 	background: #7091BC;
 	padding-top: 20px;
-	padding-bottom: 20px;	
+	padding-bottom: 20px;
+	position: relative;	
 }
 
 #produtos{
 	background: white;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	position: relative;
 }
 
 /* RODAPE */ 
