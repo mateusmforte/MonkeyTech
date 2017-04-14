@@ -1,0 +1,159 @@
+/*............. BARRA DE NAVEGAÇÃO ..........*/
+
+html, body, .capa{
+	height: 100%;
+}
+
+body{
+	/*background: url('imagens/oculos0.jpg') no-repeat; Remover posteriormente*/
+	/* background-attachment: fixed; /* deixa o fundo fixo */
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/* ...LOGO...*/
+.img-logo{
+	height: 80px;
+	width: 100px;
+	display: block;
+	background: url('imagens/otica2.jpg') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+/* CENTRALIZAR LOGO */
+.navbar-brand{
+	padding: 5px 5px;
+}
+
+/* conf da BARRA de NAV*/
+
+nav.navbar-tamanho{
+	padding: 1px 0px; /* tamanho */
+	border: none; /* remove a borda */
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+	color: white;
+    background: none;
+	background: background-image: -webkit-gradient(linear,left right, from(#800000), to(#cc0000));
+	background-image: -webkit-linear-gradient(right, #800000, #cc0000);
+	background-image: -moz-linear-gradient(right, #800000, #cc0000);
+	background-image: linear-gradient(to right, #800000, #cc0000);
+}
+
+
+/* ....EDIÇAO DOS MENUS.... */
+
+
+/* DIVISOR "|" barrinha que separa opçoes do menu */
+/*
+.divisor{
+	width: 1px;
+	height: 16px;
+	background: green;
+	margin: 16px 10px;
+}
+*/
+
+
+/* CENTRALIZAR MENU */
+/* .navbar .navbar-nav {
+display: inline-block;
+float: none !important;
+}
+.navbar .navbar-collapse {
+text-align: center;
+}*/
+
+
+
+/* COR DOS ITENS DO MENU normal ns */
+.navbar-default .navbar-nav>li>a{	
+	color: black;
+}
+
+/* COR DOS ITENS DO MENU ao passar o mouse */
+.navbar-default .navbar-nav>li>a:hover{	
+	color: gray;
+}
+
+
+/*............. CAPA ..........*/
+
+/* TAMANHO DA CAPA */
+.capa{
+	display: table;
+	width: 100%
+}
+
+/* TEXTO DA CAPA */
+.texto-capa{
+	text-align: left;
+	color: black;
+	display: table-cell;
+	vertical-align: middle;
+	letter-spacing: 0px;
+} 
+
+h1{
+	font-size: 60px;
+	font-weight: 140;
+	margin-left: 80px;
+}
+
+h2{
+	font-size: 30px;
+	font-weight: 130;
+	margin-left: 160px;
+}
+
+h4{
+	font-size: 20px;
+	font-weight: 20;
+	margin-left: 180px;
+}
+
+
+/*  segunda barra
+#barra-dois{
+	background: black;
+		 
+}
+*/
+/*Carrosel*/
+.imagemcarrosel{
+	display: block;
+    margin: 30px 30px 0px 0px;
+	height: 100%;
+	width: 60%;
+
+}
+
+/*BLOCOs */
+#quem-somos{
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#servicos{
+	background: #7091BC;
+	padding-top: 20px;
+	padding-bottom: 20px;	
+}
+
+#produtos{
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* RODAPE */ 
+
+footer{
+	background: #000;
+	padding: 50px 0 px 20px 0px;
+	position: relative;
+	
+
+}
